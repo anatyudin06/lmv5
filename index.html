@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Офіційний сайт футбольного клубу FC GOAL ENGINE. Головна сторінка з останніми новинами.">
+    <title>Головна | FC GOAL ENGINE</title>
+
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    </noscript>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="border-bottom py-3">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <a href="index.html" class="d-flex align-items-center text-dark text-decoration-none">
+                <img src="./img/logo.svg" alt="logo" class="logo-sm me-2">
+                <span class="logo-title">FC GOAL ENGINE</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Відкрити меню" aria-expanded="false"
+                aria-controls="mainNav">
+                <span></span>
+            </button>
+
+            <ul class="nav nav-pills" id="mainNav">
+                <li class="nav-item"><a href="index.html" class="nav-link text-dark fw-bold">Головна</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link text-dark">Про нас</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Досягнення</a></li>
+                <li class="nav-item"><a href="stats.html" class="nav-link text-dark">Статистика матчів</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="visually-hidden">Головна сторінка футбольного клубу FC GOAL ENGINE</h1>
+
+        <section class="bg-light text-center">
+            <h2 class="visually-hidden">Головний банер клубу</h2>
+
+            <div class="hero-img mx-auto">
+                <img src="./img/1.jpg" alt="Футбольний стадіон">
+                <span class="hero-title text-white">FC GOAL ENGINE</span>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <div class="row align-items-center gx-5">
+                <div class="col-lg-5 col-xl-4 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-4">Майбутнє українського футболу</h2>
+
+                    <div class="mb-4">
+                        <h3 class="h5 fw-bold">Сильна академія</h3>
+                        <p class="text-muted text-narrow">
+                            Клуб активно розвиває молодіжну систему та готує нове покоління футболістів для професійного
+                            рівня.
+                        </p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h3 class="h5 fw-bold">Сучасний підхід</h3>
+                        <p class="text-muted text-narrow">
+                            Аналітика, спортивна наука та інтенсивні тренування допомагають команді демонструвати
+                            стабільні результати.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="h5 fw-bold">Підтримка вболівальників</h3>
+                        <p class="text-muted text-narrow">
+                            Кожен матч проходить за неймовірної атмосфери завдяки відданим фанатам клубу.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-xl-5 ms-auto">
+                    <div class="section-img">
+                        <img src="./img/2.jpg" alt="Команда перед матчем" loading="lazy" decoding="async">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <h2 class="text-center fw-bold mb-5">Новини</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+                    <img src="./img/3.jpg" class="card-img mb-3" alt="Тренування команди" loading="lazy"
+                        decoding="async">
+
+                    <h3 class="h5 fw-bold">Підготовка до нового сезону</h3>
+
+                    <p class="text-muted text-card">
+                        Команда розпочала літній тренувальний збір та проводить серію контрольних матчів.
+                    </p>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <img src="./img/4.jpg" class="card-img mb-3" alt="Футбольний матч" loading="lazy" decoding="async">
+
+                    <h3 class="h5 fw-bold">Перемога у півфіналі кубка</h3>
+
+                    <p class="text-muted text-card">
+                        FC GOAL ENGINE здобув важливу перемогу та вийшов до фіналу турніру.
+                    </p>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <img src="./img/5.jpg" class="card-img mb-3" alt="Тренування футболістів" loading="lazy"
+                        decoding="async">
+
+                    <h3 class="h5 fw-bold">Новий рекорд відвідуваності</h3>
+
+                    <p class="text-muted text-card">
+                        Домашній матч клубу зібрав рекордну кількість уболівальників на стадіоні.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-4 mt-auto border-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="./img/logo.svg" alt="logo" class="logo-sm me-2">
+                <span class="logo-title">FC GOAL ENGINE</span>
+            </div>
+
+            <ul class="nav list-unstyled d-flex">
+                <li class="ms-3"><a href="#"><img src="./img/facebook_icon.svg" class="footer-icon" alt=""></a></li>
+                <li class="ms-3"><a href="#"><img src="./img/linkedin_icon.svg" class="footer-icon" alt=""></a></li>
+                <li class="ms-3"><a href="#"><img src="./img/youtube_icon.svg" class="footer-icon" alt=""></a></li>
+                <li class="ms-3"><a href="#"><img src="./img/instagram_icon.svg" class="footer-icon" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const toggle = document.getElementById('navToggle');
+        const nav = document.getElementById('mainNav');
+        toggle.addEventListener('click', () => {
+            const open = nav.classList.toggle('open');
+            toggle.classList.toggle('open', open);
+            toggle.setAttribute('aria-expanded', open);
+        });
+        nav.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                toggle.classList.remove('open');
+                toggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>
